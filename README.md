@@ -23,5 +23,6 @@ Here I write all the things that still need to be done to this repo, in somewhat
 - Make sure that the file paths are compatible with eachother
 
 Finally some wishes:
+- Merge header_maker.py into add_funcs.py
 - Have a look at turning everything into .py
 - Have a look at getting wrappers for the most important scripts
