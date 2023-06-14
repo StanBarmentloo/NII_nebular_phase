@@ -3,14 +3,11 @@ Besides the files themselves, the paths in which to place them when on cluster a
 
 At the location of this README (level 1), the following files + folders exist:
 
-- slurm_file_maker.py : 
-- ip_template :
-- ip_file_maker.py :
-- slurm_template_pdc :
-- slurm_template_snic :
-- dirmake.sh : This file is already present in SUMO, but requires some adjustments for our specific goals. Simply replace the 'dirmake.sh' in your SUMO installation with the file in this repo, 
-               and things should be fine!
-- iterate_mpirun.sh : This file is already present in SUMO, but requires some adjustments for our specific goals. Simply replace the 'iterate_mpirun.sh' in your SUMO installation with the file in this repo, 
-                      and things should be fine!
+- woosley_data_converter_AJ_2015_mixing_v1p0.ipynb : This notebook is the translator from the Woosley data to something that can be understood by SUMO.
+                                                     Taking the files from 'woosley_data' as input, its outputs are stored in 'explosion_models'
+- header_maker.py :
+- woosley_data : This folder contains all the output_files for the Helium star models from Woosley et al. 2019, kindly provided by the Garching group
+- explosion_models: This folder contains all the explosion models created using the 'converter' notebook, to be feeded in to SUMO. 
+                    Some previous iterations of the models are also present.
 
-This README was last updated on: 12-06-2023
+This README was last updated on: 14-06-2023
