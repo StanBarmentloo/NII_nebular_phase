@@ -3,7 +3,7 @@ Besides the files themselves, the paths in which to place them when on cluster a
 
 At the location of this README (level 1), the following files + folders exist:
 
-- runscript_S.py : This is the only file that needs to be run to complete a full job cycle. There are only four parameters that could ever require changing:
+- runscript_S.py : This is the only file that needs to be run to complete a full job cycle. There are only five parameters that could ever require changing:
   
                    - masses : In this list, fill in the masses of the models that you want to run
                    - mixings : In this list, fill in the mixings that you want to run. Now, for each mass, all mixings will be run. The amount of runs started is thus len(masses) * len(mixings).
@@ -11,6 +11,7 @@ At the location of this README (level 1), the following files + folders exist:
                    - t_eval : This gives the epoch at which to evaluate all the models
                    - initial_run : This boolean should be turned to True when it is the first t_eval for these specific models. If all models have at least one completed run (no matter at what t_eval),
                                    runs with only a different t_eval can use these as intial guesses to speed up the runs. In this case, put the bool to False.
+                   - t_init : If initial_run is True, give the t_init for the first run that was ran. 
 
                    once these parameters are set, be sure to adjust the file at $SUMODIR/DATA/ip_file_maker.py. The only thing to do is to put the correct t_eval. Once this is done,
                    simply do 'python runscript_S.py'. The runs will now start. This process goes as follows:
