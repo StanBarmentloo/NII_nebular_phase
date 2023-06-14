@@ -10,8 +10,6 @@ At the location of this README (level 0), the following files + folders exist:
 - analysis: Here, all the analysis notebooks are stored that allow the user to get insight into the spectra that were produced.
 - plots: In this folder, notebooks for all plots that are used in the paper are stored. Each figure has its own, dedicated notebook.
 
-This README was last updated on: 12-06-2023
-
 
 
 ## To do list
@@ -26,3 +24,6 @@ Finally some wishes:
 - Merge header_maker.py into add_funcs.py
 - Have a look at turning everything into .py
 - Have a look at getting wrappers for the most important scripts
+
+
+This README was last updated on: 14-06-2023
