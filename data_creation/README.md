@@ -1,5 +1,4 @@
-This folder contains all the files necessary for the Dardel cluster to allow for the user to run a modelling job with a single command.
-Besides the files themselves, the paths in which to place them when on cluster are also mentioned 
+This folder contains all the files necessary for creating the input model data for the output models that are presented in the paper.
 
 At the location of this README (level 1), the following files + folders exist:
 
