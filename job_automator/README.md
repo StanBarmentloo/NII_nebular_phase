@@ -13,8 +13,7 @@ At the location of this README (level 1), the following files + folders exist:
                                    runs with only a different t_eval can use these as intial guesses to speed up the runs. In this case, put the bool to False.
                    - t_init : If initial_run is True, give the t_init for the first run that was ran. 
 
-                   once these parameters are set, be sure to adjust the file at $SUMODIR/DATA/ip_file_maker.py. The only thing to do is to put the correct t_eval. Once this is done,
-                   simply do 'python runscript_S.py'. The runs will now start. This process goes as follows:
+                   Once these parameters are set, simply do 'python runscript_S.py' and enjoy! The runs will now start. This process goes as follows:
   
                    1 Create a separate directory for a run
                    2 Run the dirmake.sh file, which copies all necessary files for the run to the separate directory that was just created
@@ -32,4 +31,4 @@ At the location of this README (level 1), the following files + folders exist:
 - iterate_mpirun.sh : This file is already present in SUMO, but requires some adjustments for our specific goals. Simply replace the 'iterate_mpirun.sh' in your SUMO installation with the file in this repo, 
                       and things should be fine!
 
-This README was last updated on: 14-06-2023
+This README was last updated on: 15-06-2023
