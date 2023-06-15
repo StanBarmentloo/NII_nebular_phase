@@ -9,4 +9,10 @@ At the location of this README (level 1), the following files + folders exist:
 - explosion_models: This folder contains all the explosion models created using the 'converter' notebook, to be feeded in to SUMO. 
                     Some previous iterations of the models are also present.
 
-This README was last updated on: 14-06-2023
+
+Files That need to be pylint + blacked:
+- The four mentioned above
+
+This README was last updated on: 15-06-2023
+
+
