@@ -2,6 +2,7 @@ This folder contains all the files necessary for the analysis of the resulting s
 
 At the location of this README (level 1), the following files + folders exist:
 
+- add_funcs.py : A python file containing a plethora of auxilary functions used during analysis. Think of definitions for a Gaussian, or routines to translate wavelengths to velocities and much more.
 - spectrum_plotter.ipynb : This notebook simply allows the user to nicely plot any spectrum (modelled or observed), provided the spectrum file is in the correct format
 - NII_time_tracks.ipynb : This notebook plots out the NII-statistic's evolution over time for each SN (modelled or observed), also known as an NII_time_track.
                           It stores all the time tracks for the observed SNe in a .csv file
