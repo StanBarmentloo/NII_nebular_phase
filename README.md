@@ -5,8 +5,7 @@ Nebular Nitrogen Line Emission in Stripped-Envelope Supernovae -- a New Progenit
 
 Each folder in the repository will contain a short README on the purpose of that specific folder.
 
-**IMPORTANT: The observational part of this study has its own repository, at https://github.com/StanBarmentloo/SECRETO . Some of the results from that
-repository are used to create the figures present in this repository, so that to fully reproduce the work, both repo's are needed. **
+**IMPORTANT: The observational part of this study has its own repository, at https://github.com/StanBarmentloo/SECRETO . Some of the results from that repository are used to create the figures present in this repository, so that to fully reproduce the work, both repo's are needed. **
 
 At the location of this README, the following files + folders exist:
 
