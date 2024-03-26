@@ -1,3 +1,5 @@
+# Mixing Results
+
 This folder contains the results from the 2D mixing simulations that are discussed in section 3.1.2 and figures 3 and 4 of the paper. These simulations may be obtained through request 
 
 At the location of this README, the following files exist:
