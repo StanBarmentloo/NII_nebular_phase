@@ -17,4 +17,4 @@ At the location of this README, the following files + folders exist:
 - job_automator : This folder is only relevant for those at Stockholm University. It contains all the files necessary for our private cluster to allow for the user to run a modelling job with a single command.
 
 
-This README was last updated on: 14-06-2023
+This README was last updated on: 26-03-2024
