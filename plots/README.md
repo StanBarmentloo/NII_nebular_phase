@@ -1,3 +1,5 @@
+# Plots
+
 This folder contains all the necessary notebooks to recreate the figures in the paper. 
 
 At the location of this README, the following files exist:
