@@ -1,4 +1,7 @@
-This folder contains all the files necessary for the Dardel cluster to allow for the user to run a modelling job with a single command.
+# Job Automator
+
+*This folder contains all the files necessary for the private SU cluster, so is not really of interest for those not at SU.*
+The files allow for the user to run a modelling job with a single command.
 Besides the files themselves, the paths in which to place them when on cluster are also mentioned 
 
 At the location of this README (level 1), the following files + folders exist:
