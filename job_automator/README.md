@@ -4,7 +4,7 @@
 The files allow for the user to run a modelling job with a single command.
 Besides the files themselves, the paths in which to place them when on cluster are also mentioned 
 
-At the location of this README (level 1), the following files + folders exist:
+At the location of this README, the following files exist:
 
 - runscript_S.py : This is the only file that needs to be run to complete a full job cycle. There are only five parameters that could ever require changing:
   
@@ -34,4 +34,4 @@ At the location of this README (level 1), the following files + folders exist:
 - iterate_mpirun.sh : This file is already present in SUMO, but requires some adjustments for our specific goals. Simply replace the 'iterate_mpirun.sh' in your SUMO installation with the file in this repo, 
                       and things should be fine!
 
-This README was last updated on: 15-06-2023
+This README was last updated on: 27-03-2024
