@@ -1,7 +1,8 @@
 # NII_nebular_phase
 This Repository contains all the files necessary to reproduce the work for my PhD's first paper, titled:
 
-Nebular Nitrogen Line Emission in Stripped-Envelope Supernovae -- a New Progenitor Mass Diagnostic
+**Nebular Nitrogen Line Emission in Stripped-Envelope Supernovae -- a New Progenitor Mass Diagnostic**
+(The ADS link to the article: https://ui.adsabs.harvard.edu/abs/2024arXiv240308911B/abstract)
 
 Each folder in the repository will contain a short README on the purpose of that specific folder.
 
